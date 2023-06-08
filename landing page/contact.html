@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact page</title>
+    <style>
+        body{
+            background-color:#f2f6ff ;
+            margin:0;
+        }
+        form{
+            background-color: white;
+            width:600px;
+            border:1px solid #ccc;
+            margin-left: auto;
+            margin-right: auto;
+            text-align: center;
+        }
+        .input-box{
+            padding-left: 12px;
+            padding-top:32px;
+            padding-bottom:12px;
+            width:80%;
+            border-top: 0;
+            border-left: 0;
+            border-right: 0;
+            border-bottom: 1px solid #ccc;
+        }
+        #submit{
+            margin-top:50px;
+            margin-bottom:22px;
+            background-color: rgb(29, 29, 50);
+            padding: 10px;
+            color: white;
+        }
+        header{
+            background-color:rgb(29, 29, 50) ;
+            height:40px; 
+            text-align: center;           
+        }
+        .text-wrapper{
+            margin:10px;
+            color:white;
+            font-size:large;
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+        
+            <a class="text-wrapper" href="trips.html" target="_blank">TRIPS</a>
+        
+            <a class="text-wrapper" href="about.html" target="_blank">ABOUT</a>
+        
+            <a class="text-wrapper" href="contact.html" target="_blank">CONTACT</a>
+
+    </header>
+    <h2 style="text-align:center;">Wanna come on my next trip?Contact Me.</h2>
+    <form>
+        
+        <div>
+            <input class="input-box" type="text" name="Username" placeholder="Full Name">
+        </div>
+        <div>
+            <input class="input-box" type="email" name="email" placeholder="email">
+        </div>
+        <div>
+            <input class="input-box" type="number" name="Contact Number" placeholder="Contact Number" maxlength="12">
+        </div>
+        <div>
+            <input id="submit" type="submit" name="submit" value="Submit">
+        </div>
+    </form>
+</body>
+</html>
